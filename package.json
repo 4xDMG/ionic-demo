@@ -65,7 +65,9 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "3.2.2"
+    "@capacitor/cli": "3.2.2",
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.0"
   },
   "description": "An Ionic project"
 }
