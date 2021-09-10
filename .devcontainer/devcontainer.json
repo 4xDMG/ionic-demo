@@ -1,0 +1,19 @@
+{
+  "name": "PEP Health Dashboard",
+  "dockerFile": "Dockerfile",
+  "appPort": [
+    3000
+  ],
+  "runArgs": [
+    "-u",
+    "node"
+  ],
+  "settings": {
+    "editor.formatOnSave": true
+  },
+  "postCreateCommand": "",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+}
